@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "stored-agent"
-version = "0.1.0"
+version = "0.1.1"
 description = "A framework for building agents that persist state between interactions."
 authors = ["Vijay Balasubramaniam <vbalasu@gmail.com>"]
 readme = "README.md"

@@ -15,7 +15,10 @@ class StoredAgent:
         """
         self.id = id
         # If the agent state file exists, load it
-        self.load(id)
+        try:
+            self.load(id)
+        except FileNotFoundError:
+            pass
         ## Store all other kwargs as attributes
         for key, value in kwargs.items():
             setattr(self, key, value)
