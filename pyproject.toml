@@ -7,6 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+boto3 = "^1.35.60"
+fs = "^2.4.16"
+fs-s3fs = "^1.1.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.3"
